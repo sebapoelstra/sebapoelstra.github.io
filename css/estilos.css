@@ -1,0 +1,403 @@
+h1, h2, h3{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+p, h4, h5{
+	font-family: 'Playfair Display', serif;
+}
+
+p{
+	font-size: 18px;
+	font-weight: 400;
+	color: black;
+	line-height: 1.2;
+}
+
+h2{
+	font-size: 24px;
+	font-weight: 600;
+}
+
+h3, h4, h5{
+	font-size: 18px;
+	font-weight: 800;
+}
+
+h3{
+	color: #82C689;
+}
+
+h4{
+	margin-bottom: 2px;
+}
+
+hr{
+	border: 1px solid black;
+	opacity: 100%;
+}
+
+.fechas{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+	line-height: 1.2;
+}
+
+
+/*Header-----------------*/
+header{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+h1{
+	font-size: 10em;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-weight: 600;
+	line-height: 1;
+}
+
+h1 span{
+	font-family: 'Noto Sans', sans-serif;
+	font-size:0.95em;
+	font-weight: 200;
+}
+
+img.yo{
+	margin-top:60px;
+	margin-bottom: 100px;
+}
+
+nav{
+	text-align: center;
+}
+
+nav hr{
+	border: 4px #212529 solid;
+	border-radius:5px;
+	opacity: 100%;
+}
+
+nav a{
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 600;
+	text-decoration: none;
+	color: #212529;
+	font-size: 16px;
+}
+
+nav a:hover{
+	background-color:#BFF3C4;
+	color: #212529;
+}
+
+.scrolleando{
+	padding-top:5%;
+	padding-bottom: 5%;
+	font-family: 'Noto Sans', sans-serif;
+	font-size:16px;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+/*Experiencia-----------------*/
+.columnas{
+	margin-top: 5%;
+}
+
+.destacadoChico{
+	font-family: 'Playfair Display', serif;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+.destacadoChico em{
+	font-weight: 900;
+	font-style: italic;
+}
+
+#callToAction{
+	margin-top: 3%;
+}
+
+#callToAction p{
+	text-decoration: underline;
+	display: inline-block;
+	margin-right: 3%;
+}
+
+#callToAction p strong{
+	font-style: italic;
+	font-weight: 900;
+}
+
+#callToAction button{
+	background-color: #BFF3C4;
+	padding: 5px;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	border:none;
+}
+
+#callToAction a:hover{
+	color: #BFF3C4;
+	background-color: black;
+}
+
+#destacadoGrande{
+	margin:12% 3%;
+}
+
+#destacadoGrande p{
+	font-size: 10em;
+	text-align: center;
+	line-height: 1;
+}
+
+/*Formacion-----------------*/
+#formacion h2{
+	margin-bottom: 20px;
+}
+
+#formacion hr{
+	max-width: 700px;
+}
+
+#investigacion{
+	background-color: #BFF3C4;
+	padding: 5%;
+}
+
+/*Skills ---------------*/
+.negro{
+	background-color: black;
+	color: white;
+	padding-top: 8%;
+	padding-bottom: 12%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+.negro .container{
+	max-width: 900px;
+}
+
+.negro p{
+	color: white;
+	margin-top: 20px;
+}
+
+.negro h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 3em;
+	font-style: italic;
+}
+
+.separador{
+	margin-top: 8%;
+}
+
+#ilustro{
+	text-align: center;
+	margin-bottom: 3%;
+}
+
+#ilustro p{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.instagram{
+	font-size: 2.5em;
+	font-weight: 600;
+}
+
+.bi.bi-instagram{
+	display: inline-block;
+	background-color:#BFF3C4 ;
+	padding:5px;
+	margin-bottom: 16px;
+}
+
+#contacto{
+	background-color:#BFF3C4 ;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin-top: 10%;
+}
+
+#contacto h2{
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 3%;
+}
+
+#contacto textarea{
+	background-color:#BFF3C4;
+	font-family: 'Playfair Display', serif;
+	font-size: 2em;
+	font-style: italic;
+	border:none;
+	border-bottom: 1px solid black;
+	text-align: center;
+	margin-bottom: 3%;
+	width: 50%;
+
+}
+
+#contacto input[type="email"]{
+	background-color:#BFF3C4;
+	font-family: 'Playfair Display', serif;
+	font-size: 2em;
+	font-style: italic;
+	border:none;
+	border-bottom: 1px solid black;
+	padding-bottom: 2px!important;
+	text-align: center;
+	width: 50%;
+}
+
+#contacto textarea:focus, #contacto input[type="email"]:focus{
+	outline: 0;
+	color:#1C5822;
+}
+
+#contacto input[type="email"]::placeholder{
+	color: black;
+}
+
+#contacto input[type="submit"]{
+	background-color:#BFF3C4;
+	border:none ;
+	padding: 15px;
+	font-size: 2em;
+	font-style: italic;
+	font-weight: 900;
+	text-decoration: underline;
+	margin-top: 3%;
+	box-shadow: none;
+}
+
+#contacto input[type="submit"]:hover{
+	color:#1C5822;
+}
+
+/*Footer -------------------*/
+
+footer{
+	margin-top:10%;
+	margin-bottom: 10%;
+	text-align: center;
+}
+
+footer h5 span{
+	font-weight: 300;
+}
+
+footer svg{
+	color:#1C5822;
+}
+
+footer svg:hover{
+	color:#BFF3C4
+}
+
+
+/*Razon Plebeya -------------------*/
+
+#fondoPlebeya{
+	background-color: #1A6DF7;
+	max-width: 500px;
+	color: white;
+	padding: 3%;
+}
+
+#fondoPlebeya h1{
+	font-size: 2.5em;
+	margin-bottom: 50px;
+	text-align: left;
+	color: white;
+	margin-top: 50px;
+}
+
+#fondoPlebeya .destacadoPlebeya{
+	font-size:1.2em;
+	margin-bottom: 50px;
+	color: white;
+}
+
+#fondoPlebeya  p{
+
+	color: white;
+}
+
+#fondoPlebeya button{
+	background-color: white;
+	color:#1A6DF7;
+	border:none;
+	margin-top: 50px;
+}
+
+#fondoPlebeya button a{
+	text-decoration: none;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+#fondoPlebeya button:hover{
+	background-color: black;
+	color:white;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+	h1{
+		font-size: 5em;
+	}
+
+	#destacadoGrande p{
+		font-size: 5em;
+	}
+	  
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  h1{
+		font-size: 3em;
+	}
+
+	#destacadoGrande p{
+		font-size: 3em;
+	}
+
+	.negro h2{
+	font-size: 1.5em;
+	}
+
+	#contacto textarea{
+		font-size: 1.2em;
+	}
+
+	#contacto input[type="email"]{
+		font-size: 1.2em;
+	}
+
+	#contacto input[type="submit"]{
+		font-size: 1.2em;
+	}
+
+	#contacto h2{
+	margin-bottom: 5%;
+	}
+	  
+  
+}
